@@ -11,8 +11,8 @@
  * Ported by Bryce Neal.
  */
 
-const statusCodes = new Map()
-const statusTexts = new Map()
+const statusCodes = new Map();
+const statusTexts = new Map();
 
 export const ACCEPTED = 202;
 statusCodes.set(202, "Accepted");
@@ -42,7 +42,7 @@ export const EXPECTATION_FAILED = 417;
 statusCodes.set(417, "Expectation Failed");
 statusTexts.set("Expectation Failed", 417);
 
-export const FAILED_DEPENDENCY  = 424;
+export const FAILED_DEPENDENCY = 424;
 statusCodes.set(424, "Failed Dependency");
 statusTexts.set("Failed Dependency", 424);
 
@@ -230,11 +230,10 @@ export const USE_PROXY = 305;
 statusCodes.set(305, "Use Proxy");
 statusTexts.set("Use Proxy", 305);
 
-
 export function getStatusText(statusCode: number) {
-  return statusCodes.get(statusCode)
-};
+  return statusCodes.get(statusCode);
+}
 
 export function getStatusCode(reasonPhrase: string) {
-  return statusTexts.get(reasonPhrase)
-};
+  return statusTexts.get(reasonPhrase);
+}
