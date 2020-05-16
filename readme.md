@@ -5,9 +5,9 @@ Get access to all the HTTP status codes. Port of npm's `http-status-codes` packa
 ## Usage
 
 ```ts
-import * as http from "https://raw.githubusercontent.com/eankeen/http/dev/mod.ts"
+import * as httpCode from "https://raw.githubusercontent.com/eankeen/http/dev/mod.ts"
 
-http.ACCEPTED //  => 202
-http.getStatusText(202) // => "Accepted"
-http.getStatusCode("Accepted") // => 202
+httpCode.ACCEPTED //  => 202
+httpCode.getStatusText(202) // => "Accepted"
+httpCode.getStatusCode("Accepted") // => 202
 ```
