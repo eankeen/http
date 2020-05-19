@@ -1,5 +1,7 @@
 # http
 
+![github workflow status (branch)](https://img.shields.io/github/workflow/status/eankeen/http/test/master) ![github badge](https://img.shields.io/github/license/eankeen/http) ![gitHub issues](https://img.shields.io/github/issues/eankeen/http)
+
 Get access to all the HTTP status codes. Port of npm's `http-status-codes` package.
 
 ## Usage
