@@ -13,3 +13,12 @@ httpCode.ACCEPTED //  => 202
 httpCode.getStatusText(202) // => "Accepted"
 httpCode.getStatusCode("Accepted") // => 202
 ```
+
+### Versions
+
+You can pin per version. the following are supported version
+
+```sh
+# deno 1.0.3 and std v0.53.0
+https://raw.githubusercontent.com/eankeen/http/v1.0.3/mod.ts
+```
