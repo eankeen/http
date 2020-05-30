@@ -16,7 +16,7 @@ httpCode.getStatusCode("Accepted") // => 202
 
 ### Versions
 
-You can pin per version. the following are supported version
+You can pin per version. The following are current usable versions
 
 ```sh
 # deno 1.0.3 and std v0.53.0
